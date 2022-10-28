@@ -1,0 +1,210 @@
+.facebook-ad {
+  background-color: white;
+  border-radius: 1px;
+  border: 0;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 40%);
+  flex-basis: 375px;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+  max-width: 375px;
+}
+
+.facebook-ad .header {
+  align-items: flex-start;
+  display: flex;
+  margin-bottom: 12px;
+  padding: 12px 16px 0 12px;
+}
+
+.facebook-ad .header .logo {
+  display: flex;
+  margin-right: 8px;
+  overflow: hidden;
+}
+
+.facebook-ad .header .logo > img {
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  height: 40px;
+  margin: 0;
+  overflow: hidden;
+  width: 40px;
+}
+
+.facebook-ad .header .company {
+  flex-direction: column;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.facebook-ad .header .company > p {
+  color: #050505;
+  line-height: 1.3333;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 2px;
+  margin-bottom: 0;
+  text-decoration: none;
+  word-break: break-word;
+}
+
+.facebook-ad .header .sponsored {
+  align-items: center;
+  color: #65676b;
+  display: flex;
+  font-size: 13px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2308;
+  margin-bottom: 5px;
+  overflow-wrap: break-word;
+  text-decoration: none;
+  word-break: break-word;
+}
+
+.facebook-ad .images {
+  align-items: center;
+  height: 100%;
+  max-height: 250px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.facebook-ad .images > ul {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.facebook-ad .images > ul > li {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  width: 100%;
+}
+
+.facebook-ad .images img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.facebook-ad .content {
+  align-items: center;
+  background-color: #f0f2f5;
+  border-bottom: 1px solid #dddfe2;
+  cursor: pointer;
+  display: flex;
+  padding: 12px 16px;
+}
+
+.facebook-ad .content > :first-child {
+  flex: 1;
+}
+
+.facebook-ad .content > :last-child {
+  padding: 0 0 0 1em;
+}
+
+.facebook-ad .content .company {
+  color: #65676b;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.3;
+  text-transform: uppercase;
+
+  /* ellipsis */
+  overflow-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+
+.facebook-ad .content h4 {
+  color: #050505;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.3;
+
+  /* ellipsis */
+  overflow-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+
+.facebook-ad .content .description {
+  color: #65676b;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.facebook-ad .cta {
+  align-items: center;
+  background-color: #e4e6eb;
+  border-radius: 6px;
+  color: #050505;
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.3;
+  padding: 0.7em 0.9em;
+  overflow-wrap: break-word;
+  white-space: nowrap;
+}
+
+.facebook-ad .share-bar {
+  align-items: center;
+  color: #616770;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  font-size: 13px;
+  padding: 6px 14px;
+}
+
+.facebook-ad .share-bar > button {
+  align-items: center;
+  border-radius: 5px;
+  color: #616770;
+  display: flex;
+  flex: 1 100%;
+  font-weight: 700;
+  height: 32px;
+  justify-content: center;
+  padding: 0 2px;
+}
+
+.action-bar {
+  padding: 0.6em 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.action-bar :first-child {
+  margin-right: 0.5em;
+}
+
+.action-bar > a,
+.action-bar > button {
+  background-color: white;
+  border-radius: 3px;
+  color: #999;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  min-width: 70px;
+  padding: 0.4em 0.8em;
+  text-align: center;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 40%);
+}

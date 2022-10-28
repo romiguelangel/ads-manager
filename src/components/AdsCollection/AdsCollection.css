@@ -1,0 +1,23 @@
+.ads-collection {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 0;
+  grid-row-gap: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+@media (min-width: 600px) {
+  .ads-collection {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 1.5em;
+  }
+}
+
+@media (min-width: 800px) {
+  .ads-collection {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+}

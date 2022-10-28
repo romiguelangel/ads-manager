@@ -1,0 +1,58 @@
+{
+  "logo": "https://res.cloudinary.com/dyiuxe5fa/image/upload/v1626282485/coding-challenge/IMG_9843.png",
+  "name": "Max's Sporting Goods",
+  "products": [
+    {
+      "id": "5904f0bafd",
+      "productName": "Good ol' Dumbbells",
+      "productDescription": "This equipment helps you perform joint-isolation exercises such as biceps curls, chest flyes or shoulder raises. Using dumbbells for full-body, multiplanar movements, however, can provide a variety of different strength outcomes. It also offers many benefits for cardiorespiratory fitness and flexibility",
+      "productImage": "https://res.cloudinary.com/dyiuxe5fa/image/upload/v1626282482/coding-challenge/wp3699391.jpg",
+      "price": 14.5,
+      "ads": [
+        {
+          "id": "e602216112",
+          "title": "Headline 1",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis dolor ornare, sollicitudin nisl et, malesuada magna. Quisque luctus, nibh non eleifend consectetur, lacus eros maximus urna, at congue libero nunc eu justo.",
+          "images": [
+            "https://i.picsum.photos/id/22/200/200.jpg?hmac=A_6iPTnt4dXFc2T3FQKaATIql7N3Hu_8qGQcdTeBweY",
+            "https://i.picsum.photos/id/629/200/200.jpg?hmac=rfXtHzV4F0aRmck6r9KotwR3FTAMaIae1Cfe8n2FGeA"
+          ]
+        },
+        {
+          "id": "5014216387",
+          "title": "Headline 2",
+          "description": "Nunc in mauris vel lacus venenatis euismod vel eu mauris. Phasellus ut lorem dapibus, interdum est vitae, euismod risus. Praesent eget augue velit. Mauris viverra molestie metus, a varius sapien eleifend at. Quisque a elementum diam. Cras at quam vel diam pharetra accumsan. Phasellus commodo nunc sollicitudin gravida dictum. Integer ut ante id diam dignissim commodo non eu augue. Praesent convallis sollicitudin nunc, et sollicitudin enim. Quisque hendrerit mi in purus mattis, vel pellentesque metus cursus. Sed sagittis lectus id augue tempor, scelerisque lobortis massa laoreet. Phasellus ut sem ac quam eleifend efficitur eu ac ante. Sed sed consectetur ligula.",
+          "images": [
+            "https://i.picsum.photos/id/627/200/200.jpg?hmac=MSL2lhofwkah26AVfSmJtyAsfbEEls6r9liG88Pu32M",
+            "https://i.picsum.photos/id/1037/200/200.jpg?hmac=MMp-F1917NlyyHn_Bd0ZS6iR3v1-FLpGFkxYeQguinM"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0a9d0c8c61",
+      "productName": "Evergrip Jump Rope",
+      "productDescription": "Did you know that for an average-sized person, jumping rope might even burn more than 10 calories a minute. In just 30 minute jump rope sessions a day, you can build the figure you want. Jumping rope also helps with:\n- tone your calves.\n- tighten your core.\n- improve your lung capacity.\n- build stamina.",
+      "productImage": "https://res.cloudinary.com/dyiuxe5fa/image/upload/v1626333092/coding-challenge/rope.jpg",
+      "price": 3,
+      "ads": []
+    },
+    {
+      "id": "104ea5cbed",
+      "productName": "Durable Resistance band",
+      "productDescription": "Rubbery, elastic bands that you can use to strengthen your muscles at home. Resistance training is any type of exercise that uses resistance or weight to build strength in your muscles. Working out with resistance bands is one option for resistance training that allows you to work out at home using just one piece of equipment.",
+      "productImage": "https://res.cloudinary.com/dyiuxe5fa/image/upload/v1626332994/coding-challenge/resistance.jpg",
+      "price": 25.3,
+      "ads": [
+        {
+          "id": "0e069e785d",
+          "title": "Headline 2",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis dolor ornare, sollicitudin nisl et, malesuada magna. Quisque luctus, nibh non eleifend consectetur, lacus eros maximus urna, at congue libero nunc eu justo. Fusce a commodo sapien. Aliquam ac dui euismod, auctor diam non, egestas neque. Integer nec ligula eu urna tempor rhoncus. Nam malesuada diam sed rhoncus aliquam. Duis est odio, fringilla ac quam eget, pulvinar rhoncus justo. Donec lacinia, risus ut suscipit vestibulum, sem dui finibus quam, quis ultrices nisi nunc in tellus.",
+          "images": [
+            "https://i.picsum.photos/id/629/200/200.jpg?hmac=rfXtHzV4F0aRmck6r9KotwR3FTAMaIae1Cfe8n2FGeA"
+          ]
+        }
+      ]
+    }
+  ]
+}

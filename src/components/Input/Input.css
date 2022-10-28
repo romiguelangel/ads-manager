@@ -1,0 +1,18 @@
+.input-field > label {
+  color: var(--black);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 0.45em;
+  text-transform: capitalize;
+}
+
+.input-field > input[type='text'] {
+  border-radius: var(--radius);
+  border: 2px solid var(--black);
+  color: var(--black);
+  font-size: 18px;
+  outline: none;
+  padding: 1em;
+  width: 100%;
+}

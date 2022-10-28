@@ -1,0 +1,15 @@
+.layout {
+  padding: var(--margin);
+  background-color: var(--gray1);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header > nav :first-child {
+  margin-right: 0.5em;
+}
